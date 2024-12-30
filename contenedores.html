@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
-</head>
-<body>
-    <div id="nav">
-        <a href="#">Images</a>
-        <button>Apps</button>
-        <button>Perfil</button>
-    </div>
-    <div id="main">
-        <div id="logo"></div>
-        <div id="search"></div>
-    </div>
-    <div id="footer"></div>
 
+    <style>
+        #footer{
+            background-color: aquamarine;
+        }
+    </style>
+
+    <script>
+        console.log("Hola desde el HTML")
+    </script>
+
+</head>
+
+<body>
+    
+    <nav id="navegacion">
+        <a href="#">Images</a>
+        <button class="btn">Apps</button>
+        <button onclick="accion()">Cambiar texto</button>
+        <button onclick="accion2()">Cambiar texto 2</button>
+        <button onclick="accion3()">Borrar datos</button>
+        <button onclick="mensajeError()">Mensaje</button>
+    </nav>
+
+    <div id="main">
+        <div id="logo">
+            <h1>Bienvenidos</h1>
+        </div>
+        <div id="search">
+            <p>Lorem ipsum dolor <span style="color: red;" class="" onclick="accion3()">amet consectetur adipisicing elit.</span> Veniam soluta temporibus, ullam et obcaecati hic! Ea ratione officia architecto voluptates, cumque accusamus assumenda ut deleniti tenetur illo cupiditate itaque non?</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <h2 style="color: red;">Hasta luego!!</h2>
+        <span id="msg-error"></span>
+    </div>
+
+<script src="index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+
+/* CSS funciona seleccionando elementos */
+
+/* Elementos HTML --> etiquetas */
+
+nav {
+    background-color: red ;
+
+}
+
+h1 {
+    color: blue;
+}
+
+/* propiedad ID */
+
+#main {
+    background-color: yellow;
+}
+
+/* propiedad class */
+
+.btn {
+    background-color: green;
+}
